@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>POSICION MOUSE</title>
+	<center><h1>POSICION MOUSE</h1></center>
+	<link rel="stylesheet" type="text/css" href="esti.css">
+</head>
+<body onmousemove="position(event)" >
+
+</div>
+	<div class="cua1" id="cua1"></div>
+<div class="cua2" id="cua2"></div>
+		<input type="text" name="mostrar" id="mostrar" class="muestra">
+
+<script >
+function position(event){
+	var x = event.clientX;
+
+	var y = event.clientY;
+
+
+	console.log(x );
+
+	console.log(y);
+	if (x>=270&&y>=100&&x<=1070&&y<=480) {
+					document.getElementById("mostrar").value="MOUSE IDENTIFICADO";
+	}
+	else
+	{
+		document.getElementById("mostrar").value="";
+	}
+ }
+</script>
+
+</html>  

@@ -1,0 +1,45 @@
+#mousePositions{
+
+	border:solid #000000 1px;
+
+	color:#000000;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:11px;
+
+	height:600px;
+
+	overflow:auto;
+
+	width:950px;
+
+}
+.cua1{
+		
+	position: absolute;
+	width: 98%;
+	height: 96%;
+	top: 0.5%;
+	left: 0.5%;
+  border: black 10px double;
+}
+.cua2{
+		
+	position: absolute;
+	width: 900px;
+	height: 380px;
+	top:  100px;
+	left: 500px;
+	 border: blue 10px dotted;
+}
+.muestra{
+	position: absolute;
+	left: 35%;
+	top: 40%;
+	width: 29%;
+	  border: white 5px none;
+	  text-align:center;
+	font-size: xx-large;
+	
+}
